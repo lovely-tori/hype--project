@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Banner */
+  .banner {
+    background-color: #eee;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  /* Formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 2em auto;
+  }
+  
+  input, select, button {
+    margin: 0.5em 0;
+    padding: 0.5em;
+  }
+  
